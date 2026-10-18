@@ -1,0 +1,22 @@
+{
+  "browser": {
+    "executablePath": "",
+    "profileDir": "browser-profile",
+    "headless": false
+  },
+  "caps": {
+    "dailyCap": 15,
+    "runCap": 8
+  },
+  "delays": {
+    "minSec": 8,
+    "maxSec": 22
+  },
+  "deliverPrefs": {
+    "到岗时间": "一周内",
+    "实习时长": "3个月以内",
+    "每周出勤": "5天"
+  },
+  "dryRun": true,
+  "resumeFile": ""
+}

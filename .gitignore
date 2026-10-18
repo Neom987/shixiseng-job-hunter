@@ -1,0 +1,17 @@
+# 求职运行产物（含个人画像、简历、投递台账，不要提交）
+.jobhunt/
+runs/
+browser-profile/
+
+# 依赖
+node_modules/
+package-lock.json
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# 日志
+*.log
