@@ -2,7 +2,7 @@
 // 检索实习僧岗位列表（纯 HTTP + SSR 数据解析，不需要登录、不需要浏览器）
 //
 // 用法：
-//   node scripts/search.mjs --keywords "数据分析,AI产品运营" --cities "深圳,广州" --pages 2
+//   node scripts/search.mjs --keywords "数据分析,内容运营" --cities "东京,上海" --pages 2
 //   node scripts/search.mjs --keywords "生物材料" --cities 全国 --degree 本科 --salary 150-400
 //
 // 输出：<home>/jobs.json

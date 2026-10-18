@@ -46,7 +46,7 @@ cp assets/config.example.json  "$JOBHUNT_HOME/config.json"
 cp assets/profile.example.json "$JOBHUNT_HOME/profile.json"   # 然后改成你自己的信息
 
 # 2. 检索（关键词 2-6 个，逗号分隔）
-node scripts/search.mjs --keywords "数据分析,AI产品运营" --cities "深圳,广州" --pages 1
+node scripts/search.mjs --keywords "数据分析,内容运营" --cities "东京,上海" --pages 1
 
 # 3. 抓完整 JD + 打分
 node scripts/detail.mjs --limit 60
@@ -92,7 +92,7 @@ node scripts/apply.mjs --limit 8            # 确认无误后放量
 ├── SKILL.md                    技能主文档：完整工作流 P0–P5
 ├── assets/
 │   ├── config.example.json     浏览器、投递上限、到岗偏好的模板
-│   └── profile.example.json    候选人画像模板（示例数据已脱敏）
+│   └── profile.example.json    候选人画像模板（示例为虚构人物圆大古）
 ├── references/
 │   ├── site-structure.md       站点数据结构、字段含义、改版应对
 │   ├── profile-schema.md       profile.json 的字段规范
@@ -131,4 +131,4 @@ node scripts/apply.mjs --limit 8            # 确认无误后放量
 
 ## 隐私
 
-仓库内的 `profile.example.json` 与相关示例均已脱敏（姓名、学校为占位符）。请勿把你自己的 `profile.json`、简历、投递台账提交到公开仓库。
+仓库内所有示例数据均为**虚构人物圆大古**（《迪迦·奥特曼》主角）的演示信息，不含任何真实姓名、学校与经历。请勿把你自己的 `profile.json`、简历、投递台账提交到公开仓库。

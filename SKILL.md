@@ -69,7 +69,7 @@ ls "$NODE_DIR/node_modules" | grep puppeteer-core   # 没有就 npm i puppeteer-
 ### P2 检索
 
 ```bash
-node <skill>/scripts/search.mjs --keywords "数据分析,AI产品运营" --cities "深圳,广州" --pages 2
+node <skill>/scripts/search.mjs --keywords "数据分析,内容运营" --cities "东京,上海" --pages 2
 ```
 
 - `--keywords` 2–6 个，逗号分隔；`--cities` 用城市名或 `全国`。
@@ -160,7 +160,7 @@ node scripts/report.mjs
 
 实习僧多数岗位的投递弹窗没有留言框，**不要硬找**；只有确实存在「求职留言/自我介绍」输入框时才填。填的话两句话，不要客套：
 
-> 我是 XX 大学 XX 专业大三学生，做过 <与 JD 第一条职责直接对应的一件事>（<可量化结果>）。每周可到岗 5 天，能连续实习 3 个月以上，随时可面试。
+> 我是 XX 大学 XX 专业大四学生，做过 <与 JD 第一条职责直接对应的一件事>（<可量化结果>）。每周可到岗 5 天，能连续实习 3 个月以上，随时可面试。
 
 第一句证明匹配，第二句解决 HR 最关心的可用性。禁止出现"贵司平台广阔""我非常热爱"这类空话，也禁止写简历上没有的经历。
 
